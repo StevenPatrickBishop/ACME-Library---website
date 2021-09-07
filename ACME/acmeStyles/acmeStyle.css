@@ -1,0 +1,323 @@
+/*global sytles*/
+
+html {
+  background-color: #f0e8de
+}
+
+body {
+  overflow-x: hidden;
+  font-family: french-canon-small-caps, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  background-color: #e0d9d7;
+}
+
+header h1,
+h2 {
+  color: #fff;
+}
+
+p {
+  font-size: 1.3em
+}
+
+main {
+  background-color: #e0d9d7;
+}
+
+a:visitd {
+  color: #a5502a;
+}
+
+
+/*header styles*/
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 38px;
+  letter-spacing: 2.5px;
+  padding: 35px 0 0 0;
+  margin-left: 10px;
+}
+
+header h1 span {
+  font-size: 76px;
+}
+
+header h2 {
+  font-size: 24px;
+  display: inline-block;
+  text-transform: capitalize
+}
+
+header {
+  height: 200px;
+  background-color: #2C3E50;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo div img {
+  height: 172px;
+  margin-top: 10px
+}
+
+#subTitle {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 30px;
+  left: 428px;
+  max-width: 795px
+}
+
+.address {
+  margin-left: 37px;
+}
+
+.center-content {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+
+/*-----------------------Main page styles-------------------------------*/
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+main h2 {
+  color: #000;
+}
+
+#mission-statement {
+  max-width: 470px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 82px;
+}
+
+blockquote {
+  border-left-color: #C7B299;
+  padding: 0;
+  text-align: center;
+  max-width: 600px;
+  margin: 105px auto 0;
+}
+
+#author {
+  text-align: right;
+  padding: 25px 20px 0 0;
+}
+
+blockquote::before {
+  content: open-quote;
+  font-family: serif;
+  font-size: 10em;
+  position: relative;
+  color: #C7B299;
+  opacity: .6;
+  line-height: 0;
+  margin-right: 2.7em;
+  top: 80px;
+}
+
+#snapshot {
+  background-color: #f0e8de;
+  border-radius: 10px;
+}
+
+#libInfo {
+  padding: 10px;
+  width: 800px;
+  margin: 0 auto
+}
+
+
+/*main links*/
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.main-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #f0e8de;
+}
+
+.main-links a {
+  color: #2980B9;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+.main-links a:hover {
+  color: #000000;
+}
+
+
+/*.center-link{margin: 0 20px;}*/
+
+#libraryPics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 105px;
+  padding: 13px
+}
+
+.table-wrap table {
+  font-size: 1.8em;
+  margin-top: 115px;
+}
+
+.table-wrap h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+#contact {
+  display: flex;
+  width: 960px;
+  margin: 50px auto 10px;
+  justify-content: space-around;
+  background-color: #f0e8de;
+  padding: 13px;
+  border-radius: 10px
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3em;
+  margin: 50px 0;
+  background-color: #f0e8de;
+  border-radius: 10px;
+}
+
+#staff {
+  font-size: 1.2em;
+}
+
+#staff td {
+  padding: 5px 10px
+}
+
+.staffName {
+  text-align: left;
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+/*-----------------------Main page End-------------------------------*/
+
+
+/*-----------------------Resource page styles-------------------------------*/
+
+#resource-box {
+  background-color: #f0e8de;
+  padding: 13px;
+  border-radius: 10px;
+  margin: 50px 0 50px;
+}
+
+.online-resources {
+  display: flex;
+}
+
+.resource-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 5px;
+  width: 200px
+}
+
+.resource-link img {
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+
+/*-----------------------Resource page End----------------------------------*/
+
+
+/*-----------------------Information page Styles----------------------------------*/
+
+.content-box {
+  background-color: #f0e8de;
+  padding: 50px 100px 50px;
+  border-radius: 10px;
+  margin: 50px 0 50px;
+}
+
+.login div,
+#contact-form div {
+  margin: 10px 0;
+}
+
+textarea {
+  height: 200px;
+  width: 600px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+
+/*-----------------------Information  page End----------------------------------*/
+
+
+/*-----------------------Homework page Start----------------------------------*/
+
+#homework-box {
+  background-color: #f0e8de;
+  padding: 50px 100px 50px;
+  border-radius: 10px;
+  margin: 50px 0 50px;
+}
+
+
+/*-----------------------Homework  page End----------------------------------*/
+
+
+/*-----------------------Footer Styles----------------------------------*/
+
+footer {
+  height: 150px;
+  background-color: #f0e8de;
+  font-size: .9em;
+}
+
+#credits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  height: 100%;
+}
+
+
+
+/*-----------------------Footer page End----------------------------------*/
